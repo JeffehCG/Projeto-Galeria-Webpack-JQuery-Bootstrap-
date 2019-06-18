@@ -1,0 +1,7 @@
+// ~ = significa que ele ira procurar dentro da pasta nodemodules
+@import "~bootstrap/scss/bootstrap"; //importando bootstrap
+
+$fa-font-path: "~font-awesome/fonts"; //sobrescrevendo o nome de uma variavel do sass do font awesome
+@import "~font-awesome/scss/font-awesome"; //importando font awesome
+
+@import "custom"
